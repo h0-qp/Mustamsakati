@@ -1,0 +1,24 @@
+[project]
+name = "mustamsakati"
+version = "1.0.0"
+description = "Mustamsakati — document wallet by Hussein"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.28.3",
+    "fpdf2>=2.7",
+    "arabic-reshaper",
+    "python-bidi",
+]
+
+[tool.flet]
+org = "com.hussein"
+product = "Mustamsakati"
+company = "Hussein"
+copyright = "Copyright (C) 2026 Hussein"
+
+[tool.flet.app]
+path = "."
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
