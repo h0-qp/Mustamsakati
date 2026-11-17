@@ -1,0 +1,4 @@
+flet==0.28.3
+fpdf2>=2.7
+arabic-reshaper
+python-bidi
